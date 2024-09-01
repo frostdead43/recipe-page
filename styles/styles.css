@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-block: 40px;
+    padding: 0px;
+    background-color: rgb(241, 227, 239);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 30px;
+    margin-inline: 40px;
+    font-size: 48px;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    color: rgba(95, 86, 77, 1);
+    margin-left: 40px;
+    margin-block: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    font-size: 24px
+}
+
+img {
+    width: 1690px;
+    margin: 40px;
+}
+
+hr {
+
+    opacity: 0.3; 
+    margin: 10px;
+    width: 80%;
+}
+
+h3 {
+    margin-inline: 40px;
+    color: rgba(133, 70, 50, 1);
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 28px;
+    text-align: left;
+}
+
+ol {
+    text-align: left;
+    margin-inline: 40px;
+    margin-block: 32px;
+    gap: 8px;
+    line-height: 44px;
+}
+
+ul {
+    text-align: left;
+    margin-inline: 40px;
+    margin-block: 32px;
+    line-height: 24px;
+} 
+
+li {
+    color: rgba(95, 86, 77, 1);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+ul li::marker {
+    color: rgba(122, 40, 78, 1);
+}
+
+ol li::marker {
+    color: rgba(122, 40, 78, 1);
+}
+
+strong {
+    color: black;
+}
+
+.preparation-time {
+    margin: 40px;
+    padding: 40px;
+    background-color: rgba(255, 247, 251, 1);
+    border-radius: 20px;
+}
+
+.preparation-time ol {
+    
+    list-style: disc;
+    text-align: left;
+}
+
+
+.preparation-time li {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.preparation-time h5 {
+    margin-bottom: 16px;
+    color: rgba(122, 40, 78, 1);
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+
+.nutrition {
+    margin: 40px;
+}
+
+#mako {
+    margin: 40px;
+}
+
+.nutrition p {
+    margin: 60px;
+}
+
+span {
+   color:rgba(133, 70, 50, 1);
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+  
